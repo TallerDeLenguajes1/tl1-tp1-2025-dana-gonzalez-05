@@ -1,23 +1,58 @@
-# Ignorar archivos binarios y compilados
+# Created by https://www.toptal.com/developers/gitignore/api/c
+# Edit at https://www.toptal.com/developers/gitignore?templates=c
+
+### C ###
+# Prerequisites
+*.d
+
+# Object files
 *.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
 *.so
-*.out
+*.so.*
+*.dylib
+
+# Executables
 *.exe
-#recla ignorar
-ignorado.txt
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
 
-# Ignorar directorios de compilación
-/build/
-/dist/
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
 
-# Ignorar configuraciones de IDEs
-.vscode/
-.idea/
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
 
-# Ignorar dependencias o bibliotecas externas si es aplicable
-/libs/
-
-# Ignorar archivos generados por depuración o temporales
-*.log
-*.tmp
-
+# End of https://www.toptal.com/developers/gitignore/api/c
