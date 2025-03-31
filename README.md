@@ -1,4 +1,4 @@
-) # Investigamdo el archivo _.gitignore_
+ # Investigamdo el archivo _.gitignore_
 
 ## ¿Que es un archivo _.gitignore_?
 El archivo .gitignore es una herramienta muy útil en Git para especificar qué archivos o directorios deben ser ignorados por el sistema de control de versiones. Esto evita que archivos innecesarios, temporales o sensibles sean rastreados y añadidos al repositorio.
@@ -36,26 +36,26 @@ Si detectas que Git está rastreando archivos innecesarios, puedes añadir un .g
 #### ¿Cómo configuraría el archivo .gitignore?
 El archivo .gitignore se utiliza para especificar los archivos y directorios que Git debe ignorar al realizar un seguimiento de los cambios. Porlo que agregar _.extencion_ seria faltible para ignorar los archivos requeridos.
 ej:
-# Ignorar archivos binarios o compilados
+**Ignorar archivos binarios o compilados**
 *.exe
 *.dll
 *.so
 *.class
 
-# Ignorar archivos temporales de sistema
+**Ignorar archivos temporales de sistema**
 .DS_Store
 Thumbs.db
 
-# Ignorar configuraciones específicas del editor
+**Ignorar configuraciones específicas del editor**
 .vscode/
 .idea/
 *.swp
 
-# Ignorar dependencias instaladas
+**Ignorar dependencias instaladas**
 node_modules/
 vendor/
 
-# Ignorar archivos sensibles y de configuración
+**Ignorar archivos sensibles y de configuración**
 .env
 credentials.json
 
