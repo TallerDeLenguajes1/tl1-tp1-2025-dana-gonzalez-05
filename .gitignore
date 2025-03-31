@@ -1,1 +1,23 @@
+# Ignorar archivos binarios y compilados
+*.o
+*.so
+*.out
+*.exe
+#recla ignorar
+ignorado.txt
+
+# Ignorar directorios de compilación
+/build/
+/dist/
+
+# Ignorar configuraciones de IDEs
+.vscode/
+.idea/
+
+# Ignorar dependencias o bibliotecas externas si es aplicable
+/libs/
+
+# Ignorar archivos generados por depuración o temporales
+*.log
+*.tmp
 
